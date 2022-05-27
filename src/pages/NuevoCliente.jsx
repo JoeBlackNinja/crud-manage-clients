@@ -4,7 +4,7 @@ const NuevoCliente = () => {
   return (
     <div>
         <h1>
-            Editar cliente
+            Nuevo cliente
         </h1>        
     </div>
   )
