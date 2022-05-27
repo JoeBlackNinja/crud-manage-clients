@@ -39,7 +39,7 @@ const Inicio = () => {
             <th className='p-2'>Acciones</th>
           </tr>
         </thead>
-        <tbody>
+        <tbody className='text-center'>
           {clientes.map(cliente => (
             <Cliente
               key={cliente.id}
