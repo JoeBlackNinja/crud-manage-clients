@@ -1,0 +1,36 @@
+{
+  "clientes": [
+    {
+      "nombre": "Elisa",
+      "empresa": "Sanmina",
+      "email": "gasd@gmail.com",
+      "telefono": 3321214455,
+      "notas": "Cantilever Galactico",
+      "id": 1
+    },
+    {
+      "nombre": "Alfredo",
+      "empresa": "Lala",
+      "email": "chemanace@gmail.com",
+      "telefono": 2323232323,
+      "notas": "28 años trabajando siendo bien reatas Don Nava",
+      "id": 2
+    },
+    {
+      "nombre": "LorenaGutierre",
+      "empresa": "Calcio de México",
+      "email": "lobosolo@outlook.com",
+      "telefono": 3412345678,
+      "notas": "Debe hasta las amalgamas",
+      "id": 3
+    },
+    {
+      "nombre": "Gumercindo",
+      "empresa": "Cemento Cruz Morada",
+      "email": "don.gumer20@cemcruzmora.mx",
+      "telefono": 9856565656,
+      "notas": "El mejor vendedor pero con terrible nombre...",
+      "id": 4
+    }
+  ]
+}
