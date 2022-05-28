@@ -31,6 +31,14 @@
       "telefono": 9856565656,
       "notas": "El mejor vendedor pero con terrible nombre...",
       "id": 4
+    },
+    {
+      "nombre": "Guadalupe Tobareñas",
+      "empresa": "El Vergel Forrajes",
+      "email": "tobarenasguada@gmail.com",
+      "telefono": 1231231230,
+      "notas": "",
+      "id": 5
     }
   ]
 }
