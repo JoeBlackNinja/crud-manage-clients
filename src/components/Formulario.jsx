@@ -36,7 +36,7 @@ const Formulario = (props) => {
   const handleSubmit = async (valores) => {
     try {
       let respuesta;
-      const url = 'http://localhost:4000/clientes';
+      const url = import.meta.env.VITE_API_URL;
       if(upOrUpdate){
         //CREACION DE UN NUEVO REGISTRO
         respuesta = await fetch(url, {

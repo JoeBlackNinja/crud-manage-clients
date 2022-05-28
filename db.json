@@ -45,8 +45,16 @@
       "empresa": "Sanmina",
       "email": "migue.migue.migueXD@gmail.com",
       "telefono": 3321214455,
-      "notas": "Nuevo Ingreso",
+      "notas": "",
       "id": 8
+    },
+    {
+      "nombre": "Hermenegildo Galeana",
+      "empresa": "spaCode",
+      "email": "hermes@gmail.com",
+      "telefono": "",
+      "notas": "",
+      "id": 9
     }
   ]
 }

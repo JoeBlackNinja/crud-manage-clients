@@ -12,7 +12,9 @@ import EditarCliente from './pages/EditarCliente';
 import VerCliente from './pages/VerCliente';
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
+
+  console.log(import.meta.env);
 
   return (
     <BrowserRouter>
