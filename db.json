@@ -1,11 +1,11 @@
 {
   "clientes": [
     {
-      "nombre": "Elisa",
+      "nombre": "Elisa del Socorro ",
       "empresa": "Sanmina",
       "email": "gasd@gmail.com",
       "telefono": 3321214455,
-      "notas": "Cantilever Galactico",
+      "notas": "Muchos años depsues frente al pelotón de fusilamiento el coronel Aureliano Buendía...",
       "id": 1
     },
     {
@@ -17,28 +17,36 @@
       "id": 2
     },
     {
-      "nombre": "LorenaGutierre",
-      "empresa": "Calcio de México",
-      "email": "lobosolo@outlook.com",
-      "telefono": 3412345678,
-      "notas": "Debe hasta las amalgamas",
-      "id": 3
-    },
-    {
-      "nombre": "Gumercindo",
-      "empresa": "Cemento Cruz Morada",
-      "email": "don.gumer20@cemcruzmora.mx",
-      "telefono": 9856565656,
-      "notas": "El mejor vendedor pero con terrible nombre...",
-      "id": 4
-    },
-    {
       "nombre": "Guadalupe Tobareñas",
       "empresa": "El Vergel Forrajes",
       "email": "tobarenasguada@gmail.com",
       "telefono": 1231231230,
       "notas": "",
       "id": 5
+    },
+    {
+      "nombre": "Samuel",
+      "empresa": "Canton",
+      "email": "navccc@chucapsor.com",
+      "telefono": 5645345669,
+      "notas": "",
+      "id": 6
+    },
+    {
+      "nombre": "Lorena",
+      "empresa": "Empaques de México",
+      "email": "lore.navarra@gmail.com",
+      "telefono": 23232323233,
+      "notas": "Cargadora mi mejor elemento cuantos qlos tienes y q eue te dedicas",
+      "id": 7
+    },
+    {
+      "nombre": "Miguel de Jesus",
+      "empresa": "Sanmina",
+      "email": "migue.migue.migueXD@gmail.com",
+      "telefono": 3321214455,
+      "notas": "Nuevo Ingreso",
+      "id": 8
     }
   ]
 }

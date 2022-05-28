@@ -1,9 +1,12 @@
 import { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import Cliente from '../components/Cliente';
 
 const Inicio = () => {
 
   const [clientes,SetClientes] = useState([]);
+
+  const navigate = useNavigate();
 
   useEffect(() => {
     const obtenerClientesApi = async () => {
@@ -18,6 +21,24 @@ const Inicio = () => {
     }
     obtenerClientesApi();
   },[])
+
+  const handleEliminar = async (id) => {
+    const confirmarEliminacion = confirm('¿Deseas eliminar este cliente?');
+    if(confirmarEliminacion){
+      try {
+        const url = `http://localhost:4000/clientes/${id}`;
+        const respuesta = await fetch(url, {
+        method:'DELETE'
+        })
+        await respuesta.json();  
+        const confirmarEliminacion = confirm(`Se elimino el cliente ${id} exitosamente`);
+        navigate('/clientes/nuevo');
+      } catch (error) {
+        console.log(error);
+      }
+      
+    }
+  }
 
   return (
     <>
@@ -44,6 +65,7 @@ const Inicio = () => {
             <Cliente
               key={cliente.id}
               cliente={cliente}
+              handleEliminar={handleEliminar}
             />
           ))}
         </tbody>

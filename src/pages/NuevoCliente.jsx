@@ -9,9 +9,9 @@ const NuevoCliente = () => {
         <p
           className='mt-3'
         >Llena los siguientes campos para registrar un cliente</p>
-        <Formulario>
-          
-        </Formulario>
+        <Formulario
+          upOrUpdate={true}
+        />
     </>
   )
 }

@@ -37,6 +37,7 @@ const Cliente = (props) => {
                 hover:bg-blue-700 block w-full
                 text-white p-2 uppercase font-bold
                 text-xs rounded-lg mt-1'
+                onClick={() => navigate(`/clientes/editar/${id}`)}
             >Editar</button>
 
              <button
@@ -44,7 +45,8 @@ const Cliente = (props) => {
                 className='bg-red-600 
                 hover:bg-red-700 block w-full
                 text-white p-2 uppercase font-bold
-                text-xs rounded-lg mt-1'                
+                text-xs rounded-lg mt-1'    
+                onClick={() => props.handleEliminar(id)}            
             >Eliminar</button>
 
         </td>
